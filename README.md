@@ -20,7 +20,7 @@ The raw CSV required several fixes before analysis:
 The top revenue product (Canon imageCLASS 2200 Advanced Copier) is also the top profit product. However, several other high-revenue products are unprofitable. For example, the Cisco TelePresence System EX90 generated $22,638 in sales but a **loss of -$1,811**.
 
 ### 2. Effect of discounting on profits
-Yes, sharply. Orders discounted below ~20-25% are consistently profitable. Orders discounted **30% or higher consistently lose money**, with losses deepening as discount increases (e.g. average profit per order falls to -$310 at the 50% discount tier).
+Yes, sharply. Orders discounted below ~20% are consistently profitable. Orders discounted **30% or higher consistently lose money**, with losses deepening as discount increases (e.g. average profit per order falls to -$310 at the 50% discount tier).
 
 ### 3. Region rank by profitability
 | Region | Revenue | Profit Margin |
@@ -60,5 +60,5 @@ Excessive discounting (30%+) is the primary driver of lost profit across this da
 
 ## Files
 - `superstore_analysis.sql` - all queries used in the analysis
-- `Sample - Superstore_1.csv` - Raw dataset 
+- `Sample - Superstore.csv` - Raw dataset 
 - `README.md` - this description
