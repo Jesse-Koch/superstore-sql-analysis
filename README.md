@@ -42,7 +42,7 @@ Consumer generates the most revenue and order volume but has the **lowest profit
 Unlike the regional finding, discount rates are nearly identical across the three customer segments (~15%), which rules out discounting as the cause. The actual driver is **product mix**: Consumer buys relatively more Furniture (the lowest-margin category across all segments, 1.79-3.31%), and even within shared categories like Office Supplies, Consumer transactions are less profitable (15.48%) than Home Office (20.84%).
 
 ### 7. Seasonal sales trends
-- **September, November, and December** consistently show the largest sales spikes (back-to-school and holiday-driven)
+- **September, November, and December** consistently show the largest sales spikes (probably caused by back-to-school and holiday-driven traffic)
 - **January and February** consistently show sharp drops following the year-end peak
 - Despite seasonal swings, cumulative revenue grew steadily year over year (~$484K by end of 2014 to ~$2.3M by end of 2017)
 
