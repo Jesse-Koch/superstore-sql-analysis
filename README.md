@@ -47,10 +47,10 @@ Unlike the regional finding, discount rates are nearly identical across the thre
 - Despite seasonal swings, cumulative revenue grew steadily year over year (~$484K by end of 2014 to ~$2.3M by end of 2017)
 
 ### 8. Top customers
-9 of the top 10 customers by revenue are solidly profitable. One, Sean Miller (customer ID - SM-20320), shows an overall loss, but this traces back to a single large, heavily-discounted order (the same Cisco TelePresence unit from finding #1), not a pattern across his other purchases.
+9 of the top 10 customers by revenue are solidly profitable. One, Sean Miller (customer ID - **SM-20320**), shows an overall loss, but this traces back to a single large, heavily-discounted order (the same Cisco TelePresence unit from finding #1), not a pattern across his other purchases.
 
 ## Central Insight
-Excessive discounting (30%+) is the primary driver of lost profit across this dataset; at the product, regional, and individual customer level. The one exception is the Consumer segment, where product mix explains weaker margins (not discounts)
+**Excessive discounting (30%+)** is the primary driver of lost profit across this dataset; at the product, regional, and individual customer level. The one exception is the Consumer segment, where product mix explains weaker margins (not discounts)
 
 ## Recommendations
 1. Cap discounts at ~20-25% **(lower limits on products bringing in low profits)**
