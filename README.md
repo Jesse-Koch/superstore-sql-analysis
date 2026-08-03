@@ -1,13 +1,13 @@
 # Superstore Sales Analysis (SQL / MySQL)
 
 ## Overview
-End-to-end SQL analysis of the Kaggle Superstore dataset, examining sales, profit, discounting, and customer behavior to identify prodit drivers. All analysis was performed in MySQL using aggregations, CTEs, and window functions.
+End-to-end SQL analysis of the Kaggle Superstore dataset, examining sales, profit, discounting, and customer behavior to identify profit drivers. All analysis was performed in MySQL using aggregations, CTEs, and window functions.
 
 ## Tools
 - MySQL (data cleaning, querying, analysis)
 
 ## Dataset
-Kaggle Superstore Sales dataset - 9,994 order line items including order id, order/ship dates, customer imformation, location data, product information, sales, quantity, discount, and profit.
+Kaggle Superstore Sales dataset - 9,994 order line items including order id, order/ship dates, customer information, location data, product information, sales, quantity, discount, and profit.
 
 ## Data Cleaning
 The raw CSV required several fixes before analysis:
@@ -17,7 +17,7 @@ The raw CSV required several fixes before analysis:
 ## Key Findings
 
 ### 1. Revenue vs. profit
-The top revenue product (Canon imageCLASS 2200 Advanced Copier) is also the top profit product. However, several other high-revenue products are unprofitable. For example, the Cisco TelePresence System EX90 generated $22,638 in sales but a **loss of -$1,811**.
+The top revenue product (Canon ImageCLASS 2200 Advanced Copier) is also the top profit product. However, several other high-revenue products are unprofitable. For example, the Cisco TelePresence System EX90 generated $22,638 in sales but a **loss of -$1,811**.
 
 ### 2. Effect of discounting on profits
 Yes, sharply. Orders discounted below ~20% are consistently profitable. Orders discounted **30% or higher consistently lose money**, with losses deepening as discount increases (e.g. average profit per order falls to -$310 at the 50% discount tier).
@@ -32,13 +32,13 @@ Yes, sharply. Orders discounted below ~20% are consistently profitable. Orders d
 
 Central has the weakest profit margin.
 
-### 4. Why Central underperforms
+### 4. Why Central unperformed
 Central applies the highest average discount of any region (**24%**, vs. 10.9% in West) which is consistent with the discount-profitability relationship found in #2.
 
 ### 5. Profitability among customer segments
 Consumer generates the most revenue and order volume but has the **lowest profit margin (11.55%)**. Home Office, the smallest segment, has the **highest margin (14.03%)**.
 
-### 6. Why Consumer segment underperforms
+### 6. Why Consumer segment unperformed
 Unlike the regional finding, discount rates are nearly identical across the three customer segments (~15%), which rules out discounting as the cause. The actual driver is **product mix**: Consumer buys relatively more Furniture (the lowest-margin category across all segments, 1.79-3.31%), and even within shared categories like Office Supplies, Consumer transactions are less profitable (15.48%) than Home Office (20.84%).
 
 ### 7. Seasonal sales trends
